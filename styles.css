@@ -1,0 +1,40 @@
+body {
+  background: #343a40;
+  color: white
+}
+
+.perfil-img {
+  border-radius: 50%;
+  border: 11px solid #343a40;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 150px;
+  height: 150px;
+  background-image: url(images/perfil.jpg);
+  background-size: 150px;
+  margin: 0 auto;
+
+}
+
+.perfil-img-wrapper {
+  padding: 10px;
+}
+
+.top-bar {
+  background: linear-gradient(#4a9468 50%, rgba(255,0,0,0) 50%);
+  max-height: 150px;
+  margin-bottom: 50px;
+}
+
+.top-bar-contentCenter {
+  background: radial-gradient(#9adeb6 50%, rgba(255,0,0,0) 50%);
+}
+
+.top-bar-contentSide {
+    background: linear-gradient(#7fcc9f 0%,#99deb6 50%, rgba(255,0,0,0) 50%);
+}
+
+.green-card-transparency {
+  padding: 10px;
+  background: linear-gradient(rgba(7,138,61,0.7) 0%, rgba(7,138,61,0.7) 50%);
+}
